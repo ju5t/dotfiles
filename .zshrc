@@ -6,6 +6,12 @@ export ZSH=$HOME/.oh-my-zsh
 # Theme
 ZSH_THEME="robbyrussell"
 
+# Set history timestamps
+HIST_STAMPS="dd/mm/yyyy"
+
+# Would you like to use another custom folder than $ZSH/custom?
+ZSH_CUSTOM=$DOTFILES
+
 # Plugins
 plugins=(git git-flow-completion python artisan ruby rbenv)
 source $ZSH/oh-my-zsh.sh
