@@ -3,6 +3,7 @@ tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
+tap 'homebrew/services'
 tap 'nicoverbruggen/homebrew-cask'
 
 # Binaries
@@ -21,6 +22,10 @@ brew 'tree'
 # Development
 brew 'php@8.0'
 brew 'php@7.4'
+brew 'composer'
+brew 'mysql'
+brew 'node'
+brew 'yarn'
 
 # Apps
 cask '1password'
@@ -29,6 +34,7 @@ cask 'alfred'
 cask 'discord'
 cask 'docker'
 cask 'google-chrome'
+cask 'oversight'
 cask 'phpmon'
 cask 'ray'
 cask 'setapp'
