@@ -19,7 +19,7 @@ First, go through the checklist below to make sure you didn't forget anything be
 2. Clone this repo to ~/.dotfiles with:
 
    ```
-   git clone git@github.com:driesvints/dotfiles.git ~/.dotfiles
+   git clone git@github.com:ju5t/dotfiles.git ~/.dotfiles
    ```
 
 3. Run ~/.dotfiles/fresh.sh to start the installation
