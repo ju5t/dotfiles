@@ -19,12 +19,6 @@ brew update
 brew tap homebrew/bundle
 brew bundle
 
-# Install global Composer packages
-/usr/local/bin/composer global require laravel/installer laravel/valet beyondcode/expose
-
-# Install Laravel Valet
-$HOME/.composer/vendor/bin/valet install
-
 # Create a workspace directory
 mkdir $HOME/workspace
 
