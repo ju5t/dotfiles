@@ -1,5 +1,7 @@
 #!/bin/sh
 
+export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
+
 echo "Setting up your Mac..."
 
 # Install Oh My Zsh if it's not installed yet
